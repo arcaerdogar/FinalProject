@@ -1,0 +1,14 @@
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\Business_.deps.json
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\Business_.dll
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\Business_.pdb
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\rerdo\source\repos\FinalProject\Business_\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.csprojAssemblyReference.cache
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.AssemblyInfoInputs.cache
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.AssemblyInfo.cs
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.csproj.CoreCompileInputs.cache
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.csproj.CopyComplete
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.dll
+C:\Users\rerdo\source\repos\FinalProject\Business_\obj\Debug\netstandard2.0\Business_.pdb
