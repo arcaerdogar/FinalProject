@@ -41,10 +41,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public Product Get()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         public List<Product> GetAll(Expression<Func<Product, bool>> filter = null)
         {

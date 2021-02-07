@@ -15,9 +15,14 @@ namespace Business_.Concrete
             _productDal = productDal;
         }
 
-        public IEnumerable<Product> GetAllByCategoryId()
+        public void Add(Product product)
         {
-            throw new NotImplementedException();
+            _productDal.Add(product);
+        }
+
+        public void Delete(Product product)
+        {
+            _productDal.Delete(product);
         }
 
         public List<Product> GetAll()
@@ -34,6 +39,11 @@ namespace Business_.Concrete
         public List<Product> GetByUnitPrice(decimal min, decimal max)
         {
             return _productDal.GetAll(p => p.UnitPrice>=min && p.UnitPrice<=min);
+        }
+
+        public void Update(Product product)
+        {
+            _productDal.Update(product);
         }
     }
 }

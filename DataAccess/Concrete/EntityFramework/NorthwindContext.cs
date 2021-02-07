@@ -7,7 +7,7 @@ using System.Text;
 namespace DataAccess.Concrete.EntityFramework
 {
     //Context :Db tabloları ile proje classlarını bağlamak
-    public class NorthwindContext:DbContext
+    public class NorthwindContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -17,5 +17,11 @@ namespace DataAccess.Concrete.EntityFramework
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Category>().ToTable("Categories","dbo");//Mapping(eşleme)
+
+            modelBuilder.Entity<Category>().Property(p => p.CategoryID).HasColumnName("CategoryID");
+        }
     }
 }

@@ -11,10 +11,14 @@ namespace ConsoleUI
         {
             ProductManager productManager = new ProductManager(new EfProductDal());
 
-            foreach (var product in productManager.GetAll())
+            productManager.Update(new Entities.Concrete.Product {ProductID=79,CategoryID=2,ProductName="Tennis Table" });
+
+            foreach (var product in productManager.GetAllByCategoryId(2))
             {
                 Console.WriteLine(product.ProductName);
             }
+
+            
 
         }
     }

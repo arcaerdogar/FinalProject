@@ -7,3 +7,6 @@ C:\Users\rerdo\source\repos\FinalProject\Entities\obj\Debug\netstandard2.0\Entit
 C:\Users\rerdo\source\repos\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
 C:\Users\rerdo\source\repos\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.dll
 C:\Users\rerdo\source\repos\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.pdb
+C:\Users\rerdo\source\repos\FinalProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\rerdo\source\repos\FinalProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\rerdo\source\repos\FinalProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
