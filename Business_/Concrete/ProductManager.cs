@@ -27,7 +27,7 @@ namespace Business_.Concrete
                 return new ErrorResult(Messages.ProductNameInvalid);
             }
             _productDal.Add(product);
-            return new SucessResult();
+            return new SucessResult(Messages.ProductAdded);
         }
 
         public IResult Delete(Product product)
